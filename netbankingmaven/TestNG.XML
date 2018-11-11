@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG.XML">
+	<test name="Testng">
+                 <classes>
+                      
+                            	 <class name ="com.inetbanking.testcases.Tc_login_001"></class>
+                     </classes>
+             </test>
+
+</suite>
