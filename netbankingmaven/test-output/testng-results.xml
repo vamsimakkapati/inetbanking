@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-11-09T10:57:40Z" name="TestNG.XML" finished-at="2018-11-09T10:57:50Z" duration-ms="10096">
+  <suite name="Default suite" duration-ms="13859" started-at="2019-01-23T12:23:44Z" finished-at="2019-01-23T12:23:58Z">
     <groups>
     </groups>
-    <test started-at="2018-11-09T10:57:40Z" name="Testng" finished-at="2018-11-09T10:57:50Z" duration-ms="10096">
-      <class name="com.inetbanking.testcases.Tc_login_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.inetbanking.testcases.Tc_login_001@3571b748]" started-at="2018-11-09T10:57:40Z" name="setup" finished-at="2018-11-09T10:57:45Z" duration-ms="4822" status="PASS">
+    <test name="Default test" duration-ms="13859" started-at="2019-01-23T12:23:44Z" finished-at="2019-01-23T12:23:58Z">
+      <class name="com.inetbanking.utilities.ExtentReport">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.inetbanking.utilities.ExtentReport@7cd62f43]" name="startTest" is-config="true" duration-ms="354" started-at="2019-01-23T12:23:44Z" finished-at="2019-01-23T12:23:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:com.inetbanking.testcases.Tc_login_001@3571b748]" started-at="2018-11-09T10:57:45Z" name="logintest" finished-at="2018-11-09T10:57:50Z" duration-ms="4477" status="PASS">
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="extentReportsDemo()[pri:0, instance:com.inetbanking.utilities.ExtentReport@7cd62f43]" name="extentReportsDemo" duration-ms="9849" started-at="2019-01-23T12:23:44Z" finished-at="2019-01-23T12:23:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testcases.Tc_login_001@3571b748]" started-at="2018-11-09T10:57:50Z" name="teardown" finished-at="2018-11-09T10:57:50Z" duration-ms="763" status="PASS">
+        </test-method> <!-- extentReportsDemo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.inetbanking.utilities.ExtentReport@7cd62f43]" name="endTest" is-config="true" duration-ms="650" started-at="2019-01-23T12:23:54Z" finished-at="2019-01-23T12:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetbanking.utilities.ExtentReport@7cd62f43]" name="teardown" is-config="true" duration-ms="2938" started-at="2019-01-23T12:23:55Z" finished-at="2019-01-23T12:23:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.inetbanking.testcases.Tc_login_001 -->
-    </test> <!-- Testng -->
-  </suite> <!-- TestNG.XML -->
+      </class> <!-- com.inetbanking.utilities.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
